@@ -1,7 +1,7 @@
-# EGSM
-Enhancing Green Screen Matting
-Important Notice:
-The Adobe dataset has legal and responsibility restrictions and must not be shared arbitrarily!!!
+# EGSM Enhancing Green Screen Matting
+
+## Important Notice:
+##The Adobe dataset has legal and responsibility restrictions and must not be shared arbitrarily!!!
 
 Environment:
 Python 3.6
@@ -9,7 +9,7 @@ CUDA 10.0
 PyTorch 1.7.1
 TensorFlow-GPU 1.14.0
 
-1. Dataset Processing - train_preprocessing
+## 1. Dataset Processing - train_preprocessing
 (1) Synthetic Dataset: data_adobe
 
 Dataset Composition:
@@ -34,7 +34,7 @@ python ae_real.py
 Note: When training, merge the generated *.csv files.
 
 
-2. Network Architecture
+## 2. Network Architecture
 Group Normalization: train_code_norm
 ASPP Module: train_code_aspp
 DPN Module: train_code_dpn
@@ -45,7 +45,7 @@ All training processes use the respective train_adobe_*.py scripts from each fol
 Overall Network Structure: mine_train_final
     Training: python mine_train.py
 
-3. Testing - test_code
+## 3. Testing - test_code
 Run segmentation test:
 python test_segmentation_deeplab.py -i test_code/input
 Run background matting test:
