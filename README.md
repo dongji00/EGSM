@@ -10,7 +10,7 @@ PyTorch 1.7.1
 TensorFlow-GPU 1.14.0
 
 ## 1. Dataset Processing - train_preprocessing
-(1) Synthetic Dataset: data_adobe
+### (1) Synthetic Dataset: data_adobe
 
 Dataset Composition:
 python compose.py --fg_path fg_train --mask_path mask_train --bg_path bg_train --out_path merged_train --out_csv Adobe_train_data.csv --workers 8
