@@ -4,11 +4,14 @@
 The [Adobe dataset](https://alphamatting.com/) has legal and responsibility restrictions and must not be shared arbitrarily.
 
 
-## Environment:  
-Python 3.6  
-CUDA 10.0  
-PyTorch 1.7.1  
-TensorFlow-GPU 1.14.0  
+## Environment:   
+- PyTorch >=1.7.1.  
+- TensorFlow-GPU >=1.14.0.
+- torchinfo
+- yaml
+- numpy
+- scipy
+
 
 ## 1. Dataset Processing - train_preprocessing
 ### (1) Synthetic Dataset: data_adobe
