@@ -4,7 +4,7 @@
 The [Adobe dataset](https://alphamatting.com/) has legal and responsibility restrictions and must not be shared arbitrarily.
 
 
-Environment:  
+## Environment:  
 Python 3.6  
 CUDA 10.0  
 PyTorch 1.7.1  
@@ -36,7 +36,7 @@ Training:
 python train_adobe_*.py -n train_adobe_* -bs 4 -res 256
 ```
 
-(2) Real Dataset: real_data
+### (2) Real Dataset: real_data
 Process the video using AE software to generate:
 Foreground images (*_fg.jpg)
 Mask images (*_maskDL.jpg)
