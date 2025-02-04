@@ -50,15 +50,18 @@ Note: When training, merge the generated *.csv files.
 
 
 ## 2. Network Architecture
-Group Normalization: train_code_norm
-ASPP Module: train_code_aspp
-DPN Module: train_code_dpn
-Perceptual Loss: train_code_VGG
+Group Normalization: train_code_norm  
+ASPP Module: train_code_aspp  
+DPN Module: train_code_dpn  
+Perceptual Loss: train_code_VGG   
    
-All training processes use the respective train_adobe_*.py scripts from each folder.
+All training processes use the respective train_adobe_*.py scripts from each folder.  
 
-Overall Network Structure: mine_train_final
-    Training: python mine_train.py
+Overall Network Structure: mine_train_final  
+Training: 
+```bash
+python mine_train.py
+```
 
 ## 3. Testing - test_code
 Run segmentation test:
