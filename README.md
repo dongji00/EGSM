@@ -1,7 +1,7 @@
 # EGSM Enhancing Green Screen Matting
 
 ## Important Notice:
-## The [Adobe dataset](https://alphamatting.com/) has legal and responsibility restrictions and must not be shared arbitrarily.
+The [Adobe dataset](https://alphamatting.com/) has legal and responsibility restrictions and must not be shared arbitrarily.
 
 
 Environment:  
