@@ -1,7 +1,7 @@
 # EGSM Enhancing Green Screen Matting
 
 ## Important Notice:
-The [Adobe dataset](https://alphamatting.com/), [MS COCO](https://www.kaggle.com/datasets/sabahesaraki/2017-2017), [Photomatte85](https://paperswithcode.com/dataset/photomatte85) have legal and responsibility restrictions and must not be shared arbitrarily.
+The [Adobe dataset](https://alphamatting.com/), [MS COCO](https://www.kaggle.com/datasets/sabahesaraki/2017-2017), [Photomatte85](https://paperswithcode.com/dataset/photomatte85) have legal and responsibility restrictions.
 
 
 ## Environment:   
