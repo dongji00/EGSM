@@ -79,3 +79,5 @@ python test_background-matting_image_1.py  -m mine_train_0120 -o test/output -i 
 
 Trained Models Location:
 green_screen_matting\test_code\Models
+
+## 3. More updates coming soon.
