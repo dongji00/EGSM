@@ -2,6 +2,7 @@
 
 ## Important Notice:
 The [Adobe dataset](https://alphamatting.com/), [MS COCO](https://www.kaggle.com/datasets/sabahesaraki/2017-2017), [Photomatte85](https://paperswithcode.com/dataset/photomatte85) have legal and responsibility restrictions.
+The training and testing data can be found at [EGSM DATA](https://drive.google.com/drive/folders/1h0b7LA_4GCNvQk1OkmkdWleXpeCo5Tkv?usp=sharing).
 
 
 ## Environment:   
@@ -80,4 +81,3 @@ python test_background-matting_image_1.py  -m mine_train_0120 -o test/output -i 
 Trained Models Location:
 green_screen_matting\test_code\Models
 
-## 4. More updates coming soon
